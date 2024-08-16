@@ -23,3 +23,8 @@ First, clone the repository to your local machine:
 ```bash
 git clone https://github.com/Anas-Jamil/File-Organizer-.git
 cd File-Organizer-
+
+### Step 2: Ensure Python is Installed
+Make sure Python 3.x is installed on your system. You can check by running:
+```bash
+python --version
