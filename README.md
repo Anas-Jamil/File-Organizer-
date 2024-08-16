@@ -30,3 +30,31 @@ Make sure Python 3.x is installed on your system. You can check by running:
 ```bash
 python --version
 ```
+
+## Usage
+
+### Step 1: Place the Script in Your Downloads Folder
+Copy the organizer.py script to the Downloads directory you want to organize, or specify a different directory by modifying the target_destination variable in the script.
+
+
+### Step 2: Run the Script
+```bash
+python organizer.py
+```
+
+### Step 3: View the Organized Files
+After running the script, your Downloads folder will be organized into subfolders based on the file extensions you specified.
+
+
+## Customization
+You can customize the list of extensions that the script organizes by modifying the specified_extensions list in the organizer.py file:
+```python
+specified_extensions = ['jpg', 'png', 'txt', 'pdf', 'docx', 'zip', 'jar', 'exe']
+```
+
+## Contributing
+If you want to contribute to this project, feel free to fork the repository and submit a pull request. Contributions such as bug fixes, new features, and documentation improvements are welcome.
+
+
+
+
