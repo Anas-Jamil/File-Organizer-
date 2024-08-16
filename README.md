@@ -6,6 +6,5 @@ A simple Python script to organize files in the Downloads directory by moving th
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/Download-Organizer.git
+   git clone https://github.com/Anas-Jamil/File-Organizer.git
    ```
-"# File-Organizer-" 
