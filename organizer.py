@@ -1,8 +1,13 @@
 import os
 import shutil
 
-target_destination = './Downloads'
+target_destination = r'C:\Users\[YOURNAME]\Downloads'
 specified_extensions = ['jpg', 'png', 'txt', 'pdf', 'docx', 'zip', 'jar', 'exe']
+
+
+if not os.path.exists(target_destination):
+    os.mkdir(target_destination)
+
 
 for extension in specified_extensions:
     folder_path = os.path.join(target_destination, extension)
